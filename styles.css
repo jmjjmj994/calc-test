@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    margin: 0;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    html {
+       font-size: 62.5%;
+    }
+    
+    .calculator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 6em;
+        font-size: 2em;
+        
+        
+      
+    }
+    .calc-screen{
+       background-color: rgb(92, 74, 74);
+       width: 25em;
+       height: 10em;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
